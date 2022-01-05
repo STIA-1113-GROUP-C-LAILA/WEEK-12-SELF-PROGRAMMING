@@ -1,0 +1,23 @@
+package myMethods;
+
+public class ArrayMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Advantage of Method ");
+		displayLine();
+		System.out.println("Advantage of Array ");
+		displayLine();
+		
+	}
+	
+	public static void displayLine() {
+		for ( int a = 0; a < 40; a++) {
+			System.out.print("_");
+		}
+	
+	System.out.println(" ");
+	}
+
+}
