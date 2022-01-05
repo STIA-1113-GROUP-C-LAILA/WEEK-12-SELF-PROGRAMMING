@@ -1,0 +1,19 @@
+package myMethods;
+
+public class Parameter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int num [] = {2,4,6,8,10};
+		System.out.println("The number of the elements : " + num.length);
+		displayArray(num);
+
+	}
+	
+	public static void displayArray(int[]number) {
+		for ( int a = 0; a <number.length; a++)
+			System.out.println(number[a] + " ");
+	}
+
+}
