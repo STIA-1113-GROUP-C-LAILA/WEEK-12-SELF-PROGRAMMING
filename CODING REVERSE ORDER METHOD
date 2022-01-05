@@ -1,0 +1,25 @@
+package myMethods;
+import java.util.Scanner;
+public class ReverseOrderMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		int a [] = new int [6];
+		int x;
+		
+		System.out.println("Please enter the numbers : ");
+		for ( x = 0; x < a.length; x++)
+			a[x] = scan.nextInt();
+		reverseOrder(a);
+		
+	}
+	
+	public static void reverseOrder ( int [] a) {
+		System.out.println ("The numbers in reverse order are : ");
+		for (int x = a.length - 1; x >= 0; x--)
+			System.out.println(a[x]);
+			
+	} 
+      
+}
